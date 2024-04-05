@@ -5,8 +5,8 @@ const Greetings = ({ people }) => {
   return (
     <div>
       <h1>Bienvenido!</h1>
-      {people.map((person) => (
-        <Hello key={person.name} name={person.name} age={person.age} />
+      {people.map((person, index) => (
+        <Hello key={index} name={person.name} age={person.age} />
       ))}
     </div>
   );

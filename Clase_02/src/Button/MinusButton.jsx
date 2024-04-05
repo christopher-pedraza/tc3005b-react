@@ -1,15 +1,19 @@
 import propTypes from "prop-types";
 import Button from "./Button";
 
-const PlusButton = ({ setCount }) => {
+const MinusButton = ({ setCount }) => {
   const handleClick = () => {
     setCount((prevCount) => prevCount - 1);
   };
-  return <Button onClick={handleClick}>-</Button>;
+  return (
+    <Button onClick={handleClick} classes={"button-default minus-button"}>
+      -
+    </Button>
+  );
 };
 
-PlusButton.propTypes = {
+MinusButton.propTypes = {
   setCount: propTypes.func,
 };
 
-export default PlusButton;
+export default MinusButton;

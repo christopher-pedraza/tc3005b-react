@@ -1,0 +1,19 @@
+.button-default {
+  width: 4rem;
+  border-color: grey;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.plus-button {
+  background-color: greenyellow;
+}
+
+.minus-button {
+  background-color: tomato;
+}
+
+.reset-button {
+  background-color: lightblue;
+}

@@ -5,7 +5,11 @@ const PlusButton = ({ setCount }) => {
   const handleClick = () => {
     setCount((prevCount) => prevCount + 1);
   };
-  return <Button onClick={handleClick}>+</Button>;
+  return (
+    <Button onClick={handleClick} classes="button-default plus-button">
+      +
+    </Button>
+  );
 };
 
 PlusButton.propTypes = {
