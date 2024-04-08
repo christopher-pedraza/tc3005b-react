@@ -1,0 +1,16 @@
+.storybook-title--small {
+  font-size: 18px;
+}
+.storybook-title--medium {
+  font-size: 20px;
+}
+.storybook-title--large {
+  font-size: 22px;
+}
+
+.storybook-title--primary {
+  color: rgb(0, 0, 0);
+}
+.storybook-title--secondary {
+  color: #0ca4eb;
+}
